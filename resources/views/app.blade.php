@@ -10,7 +10,7 @@
     <title>Ainsnan.com | Home</title>
     <meta name="keywords" content="HTML5 Template">
     <meta name="description" content="Vectus HTML5 Template - v1.0">
-    <meta name="author" content="janxcode.com">
+    <meta name="author" content="ainsnan.com">
     
     <!-- Mobile Specific Metas
   ================================================== -->
@@ -24,30 +24,30 @@
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,600,500,300' rel='stylesheet' type='text/css'>
     
     <!-- Theme Style -->
-    <link rel="stylesheet" href="css/theme.css">   
-    <link rel="stylesheet" href="css/theme-animate.css">   
-    <link rel="stylesheet" href="css/theme-elements.css">   
-    <link rel="stylesheet" href="css/plugins.css">    
+    <link rel="stylesheet" href="{{ URL::asset('css/theme.css') }}">   
+    <link rel="stylesheet" href="{{ URL::asset('css/theme-animate.css') }}">   
+    <link rel="stylesheet" href="{{ URL::asset('css/theme-elements.css') }}">   
+    <link rel="stylesheet" href="{{ URL::asset('css/plugins.css') }}">    
     
     <!-- Skin CSS -->
-    <link id="skin" rel="stylesheet" href="css/skins/sun.css">
+    <link id="skin" rel="stylesheet" href="{{ URL::asset('css/skins/sun.css') }}">
     <!-- Icon Fonts -->
-    <link rel='stylesheet' href='fonts/font-awesome.min.css' type='text/css' media='screen' />    
+    <link rel='stylesheet' href="{{ URL::asset('fonts/font-awesome.min.css') }}" type='text/css' media='screen' />    
     
     <!-- Library Css -->
-    <link rel="stylesheet" href="css/skeleton.css"> 
-    <link rel="stylesheet" href="vendor/flexslider/flexslider.css">
+    <link rel="stylesheet" href="{{ URL::asset('css/skeleton.css') }}"> 
+    <link rel="stylesheet" href="{{ URL::asset('vendor/flexslider/flexslider.css') }}">
     
-    <link rel="stylesheet" href="vendor/isotope/isotope.css">
-    <link rel="stylesheet" href="vendor/owl/owl.carousel.css">
-    <link rel="stylesheet" href="vendor/prettyPhoto/prettyPhoto.css">
-    <link rel="stylesheet" type="text/css" href="vendor/rs-plugin/css/settings.css" media="screen" /> 
+    <link rel="stylesheet" href="{{ URL::asset('vendor/isotope/isotope.css') }}">
+    <link rel="stylesheet" href="{{ URL::asset('vendor/owl/owl.carousel.css') }}">
+    <link rel="stylesheet" href="{{ URL::asset('vendor/prettyPhoto/prettyPhoto.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ URL::asset('vendor/rs-plugin/css/settings.css') }}" media="screen" /> 
     
     <!-- Responsive Theme -->
-    <link rel="stylesheet" href="css/theme-responsive.css">
+    <link rel="stylesheet" href="{{ URL::asset('css/theme-responsive.css') }}">
     
     <!-- Library Js -->
-    <script src="vendor/modernizr.js"></script>
+    <script src="{{ URL::asset('vendor/modernizr.js') }}"></script>
     
     
     
@@ -64,10 +64,10 @@
     <![endif]-->
     <!-- Favicons
     ================================================== -->
-    <link rel="shortcut icon" href="images/favicon.ico">
-    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+    <link rel="shortcut icon" href="{{ URL::asset('images/favicon.ico') }}">
+    <link rel="apple-touch-icon" href="{{ URL::asset('images/apple-touch-icon.png') }}">
+    <link rel="apple-touch-icon" sizes="72x72" href="{{ URL::asset('images/apple-touch-icon-72x72.png') }}">
+    <link rel="apple-touch-icon" sizes="114x114" href="{{ URL::asset('images/apple-touch-icon-114x114.png') }}">
 </head>  
 <body>
     <!-- BOF Loader -->
@@ -91,7 +91,7 @@
                 <div class="container">
                 
                     <div class="eight columns left">
-                        <div class="jx-left-topbar">Welcome to Ainsnan.com . Creative HTML Template</div>
+                        <div class="jx-left-topbar">Welcome to Ainsnan.com</div>
                     </div>
                     <!-- Left Items -->
                     
@@ -101,12 +101,10 @@
                             <div class="email left"><i class="fa fa-envelope"></i> Info@ainsnan.com</div>
                             
                                 <ul class="right">
-                                    <li><a href="#"><i class="fa fa-shopping-cart"></i><span class="cart">0</span></a></li>
-                                    <li><span>$0.00</span></li>
                                     <li><a href="#"><i class="fa fa-user"></i></a></li>
-                                    <li><a href="http://www.facebook.com/janxcode"><i class="fa fa-facebook"></i></a></li>
-                                    <li><a href="http://www.twitter.com/janxcode"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a href="http://www.googleplus.com/janxcode"><i class="fa fa-google-plus"></i></a></li>
+                                    <li><a href="http://www.facebook.com/ainsnan"><i class="fa fa-facebook"></i></a></li>
+                                    <li><a href="http://www.twitter.com/ainsnan"><i class="fa fa-twitter"></i></a></li>
+                                    <li><a href="http://www.googleplus.com/ainsnan"><i class="fa fa-google-plus"></i></a></li>
                                 </ul>
                                 <!-- Social icons-->
                             </div>
@@ -121,7 +119,7 @@
                 
                     <div class="four columns">
                         <div class="jx-header-logo">
-                            <a href="/"><img src="images/header_logo.png" alt="" /></a>
+                            <a href="/"><img src="{{ URL::asset('images/header_logo.png') }}" alt="" /></a>
                          </div>
                         <!-- Logo -->
                     </div>                
@@ -188,7 +186,7 @@
        
                         <div class="widget">             
                             <div class="jx-footer-logo">
-                                <a href="/"><img src="images/header_logo.png" alt="" /></a>
+                                <a href="/"><img src="{{ URL::asset('images/header_logo.png') }}" alt="" /></a>
                             </div>
                             <!-- footer logo -->
                             <div class="jx-about">
@@ -242,28 +240,28 @@
                             <div class="jx-widget-recent-post">
                                 <ul>
                                     <li>
-                                        <div class="image"><img src="images/blog-s-1.jpg" alt="" /></div>
+                                        <div class="image"><img src="{{ URL::asset('images/blog-s-1.jpg') }}" alt="" /></div>
                                         <div class="post-content">
                                             <div class="title"><a href="news-single-page.html">Responsive HTML Design</a></div>
                                             <div class="date">29 JUN 2015</div>
                                         </div>
                                     </li>
                                     <li>
-                                        <div class="image"><img src="images/blog-s-2.jpg" alt="" /></div>
+                                        <div class="image"><img src="{{ URL::asset('images/blog-s-2.jpg') }}" alt="" /></div>
                                          <div class="post-content">
                                             <div class="title"><a href="news-single-page.html">Clean and Modern</a></div>
                                             <div class="date">02 AUG 2015</div>
                                         </div>
                                     </li>
                                     <li>
-                                        <div class="image"><img src="images/blog-s-3.jpg" alt="" /></div>
+                                        <div class="image"><img src="{{ URL::asset('images/blog-s-3.jpg') }}" alt="" /></div>
                                          <div class="post-content">
                                             <div class="title"><a href="news-single-page.html">Unlimited Control Options</a></div>
                                             <div class="date">20 JAN 2015</div>
                                         </div>
                                     </li>
                                     <li>
-                                        <div class="image"><img src="images/blog-s-4.jpg" alt="" /></div>
+                                        <div class="image"><img src="{{ URL::asset('images/blog-s-4.jpg') }}" alt="" /></div>
                                          <div class="post-content">
                                             <div class="title"><a href="news-single-page.html">Responsive HTML Design</a></div>
                                             <div class="date">20 JAN 2015</div>
@@ -315,17 +313,17 @@
                             
                             <div class="jx-footer-flickr">
                                 <ul>
-                                    <li><a href="images/portfolio-w-1.jpg" data-rel="prettyPhoto"><img src="images/flick-1.jpg" alt="" /></a></li>
+                                    <li><a href="{{ URL::asset('images/portfolio-w-1.jpg') }}" data-rel="prettyPhoto"><img src="{{ URL::asset('images/flick-1.jpg') }}" alt="" /></a></li>
                                     <!-- item 01 -->
-                                    <li><a href="images/portfolio-w-2.jpg" data-rel="prettyPhoto"><img src="images/flick-2.jpg" alt="" /></a></li>
+                                    <li><a href="{{ URL::asset('images/portfolio-w-2.jpg') }}" data-rel="prettyPhoto"><img src="{{ URL::asset('images/flick-2.jpg') }}" alt="" /></a></li>
                                     <!-- item 01 -->
-                                    <li><a href="images/portfolio-w-3.jpg" data-rel="prettyPhoto"><img src="images/flick-3.jpg" alt="" /></a></li>
+                                    <li><a href="{{ URL::asset('images/portfolio-w-3.jpg') }}" data-rel="prettyPhoto"><img src="{{ URL::asset('images/flick-3.jpg') }}" alt="" /></a></li>
                                     <!-- item 01 -->
-                                    <li><a href="images/portfolio-w-4.jpg" data-rel="prettyPhoto"><img src="images/flick-4.jpg" alt="" /></a></li>
+                                    <li><a href="{{ URL::asset('images/portfolio-w-4.jpg') }}" data-rel="prettyPhoto"><img src="{{ URL::asset('images/flick-4.jpg') }}" alt="" /></a></li>
                                     <!-- item 01 -->
-                                    <li><a href="images/portfolio-w-5.jpg" data-rel="prettyPhoto"><img src="images/flick-5.jpg" alt="" /></a></li>
+                                    <li><a href="{{ URL::asset('images/portfolio-w-5.jpg') }}" data-rel="prettyPhoto"><img src="{{ URL::asset('images/flick-5.jpg') }}" alt="" /></a></li>
                                     <!-- item 01 -->
-                                    <li><a href="images/portfolio-w-6.jpg" data-rel="prettyPhoto"><img src="images/flick-6.jpg" alt="" /></a></li>
+                                    <li><a href="{{ URL::asset('images/portfolio-w-6.jpg') }}" data-rel="prettyPhoto"><img src="{{ URL::asset('images/flick-6.') }}" alt="" /></a></li>
                                     <!-- item 01 -->
                                 </ul>    
                             </div>
@@ -428,22 +426,22 @@
         
     <!-- Footer -->
     
-    <script type="text/javascript" src="vendor/jquery.js"></script>
-    <script type="text/javascript" src="js/plugins.js"></script>
-    <script type="text/javascript" src="vendor/respond.js"></script>
-    <script type="text/javascript" src="vendor/jquery.appear.js"></script>    
-    <script type="text/javascript" src="vendor/prettyPhoto/jquery.prettyPhoto.js"></script>
-    <script type="text/javascript" src="vendor/isotope/jquery.isotope.min.js"></script>
-    <script type='text/javascript' src='vendor/form-validator/jquery.form-validator.min.js'></script>
-    <script type="text/javascript" src="vendor/flexslider/jquery.flexslider.js"></script>   
-    <script type="text/javascript" src="vendor/rs-plugin/js/jquery.themepunch.tools.min.js"></script>
-    <script type="text/javascript" src="vendor/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+    <script type="text/javascript" src="{{ URL::asset('vendor/jquery.js') }}"></script>
+    <script type="text/javascript" src="{{ URL::asset('js/plugins.js') }}"></script>
+    <script type="text/javascript" src="{{ URL::asset('vendor/respond.js') }}"></script>
+    <script type="text/javascript" src="{{ URL::asset('vendor/jquery.appear.js') }}"></script>    
+    <script type="text/javascript" src="{{ URL::asset('vendor/prettyPhoto/jquery.prettyPhoto.js') }}"></script>
+    <script type="text/javascript" src="{{ URL::asset('vendor/isotope/jquery.isotope.min.js') }}"></script>
+    <script type='text/javascript' src='{{ URL::asset('vendor/form-validator/jquery.form-validator.min.js') }}'></script>
+    <script type="text/javascript" src="{{ URL::asset('vendor/flexslider/jquery.flexslider.js') }}"></script>   
+    <script type="text/javascript" src="{{ URL::asset('vendor/rs-plugin/js/jquery.themepunch.tools.min.js') }}"></script>
+    <script type="text/javascript" src="{{ URL::asset('vendor/rs-plugin/js/jquery.themepunch.revolution.min.js') }}"></script>
     
    <!-- Home JS -->
-    <script src="js/custom/home.js"></script>
+    <script src="{{ URL::asset('js/custom/home.js') }}"></script>
     
     <!-- Theme Initializer -->
-    <script src="js/theme.js"></script>
+    <script src="{{ URL::asset('js/theme.js') }}"></script>
     
     
     
