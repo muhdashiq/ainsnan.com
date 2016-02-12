@@ -437,12 +437,15 @@
     <script type="text/javascript" src="{{ URL::asset('vendor/rs-plugin/js/jquery.themepunch.tools.min.js') }}"></script>
     <script type="text/javascript" src="{{ URL::asset('vendor/rs-plugin/js/jquery.themepunch.revolution.min.js') }}"></script>
     
-   <!-- Home JS -->
+    @if( isset($homeFlag))
+    <!-- Home JS -->
     <script src="{{ URL::asset('js/custom/home.js') }}"></script>
-    
+    @endif
+
     <!-- Theme Initializer -->
     <script src="{{ URL::asset('js/theme.js') }}"></script>
     
+    @yield('googleMap')
     
     
 </body>
