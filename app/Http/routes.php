@@ -12,7 +12,8 @@
 */
 
 Route::get('/', function () {
-    return view('home');
+	$homeFlag = 1;
+    return view('home',compact('homeFlag'));
 });
 
 Route::get('about', function () {
@@ -21,6 +22,11 @@ Route::get('about', function () {
 
 Route::get('contact', function () {
     return view('contact');
+});
+
+Route::post('contact', function () {
+    //return view('contact');
+    echo "hitting";
 });
 
 Route::get('/{id}', function(){

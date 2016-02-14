@@ -25,7 +25,7 @@
                                         data-splitout="none"
                                         data-elementdelay="0.05"
                                         data-endelementdelay="0.1"
-                                        style="z-index: 9; max-width: auto; max-height: auto; white-space: nowrap;">THE BEST SOLUTION </div>
+                                        style="z-index: 9; max-width: auto; max-height: auto; white-space: nowrap;">OUR VISION</div>
                                         
                              <div class="jx-caption-big-icon tp-caption grey_regular_18 customin tp-resizeme rs-parallaxlevel-0"
                                         data-x="393"
@@ -52,7 +52,7 @@
                                         data-splitout="none"
                                         data-elementdelay="0.05"
                                         data-endelementdelay="0.1"
-                                        style="z-index: 9">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean <br>commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus <br> et magnis dis parturient montes, nascetur ridiculus mus.</div>
+                                        style="z-index: 9">IS TO BECOME THE LEADER IN QATAR'S PREMIER CONSTRUCTION BUSINESS<br/>BY HELPING OUR CLIENTS TO ACHIEVE SUCCESS THROUGH TECHNOLOGY<br/>AND SERVICE.<br/></div>
                              <!-- LAYER NR. 3 -->
                                                        
                             </li>
@@ -75,7 +75,7 @@
                                         data-splitout="none"
                                         data-elementdelay="0.05"
                                         data-endelementdelay="0.1"
-                                        style="z-index: 9; max-width: auto; max-height: auto; white-space: nowrap;">CONSTRUCT WORKS</div>
+                                        style="z-index: 9; max-width: auto; max-height: auto; white-space: nowrap;">OUR MISSION</div>
                                         
                              <div class="jx-caption-big-icon tp-caption grey_regular_18 customin tp-resizeme rs-parallaxlevel-0"
                                         data-x="396"
@@ -102,7 +102,7 @@
                                         data-splitout="none"
                                         data-elementdelay="0.05"
                                         data-endelementdelay="0.1"
-                                        style="z-index: 9">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean <br>commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus <br> et magnis dis parturient montes, nascetur ridiculus mus.</div>
+                                        style="z-index: 9">TO RECOMMEND, BUILD AND MAINTAIN THE MOST COST EFFECTIVE<br/>SOLUTIONS BY STAYING FOCUSED ON 100% QUALITY IN EVERY<br/>SOLUTION THROUGH THE CO-OPERATION AND INTEGRATION OF <br/>PEOPLE AND ACHIEVING THE HIGHEST LEVEL OF EXCELLENCE<br/>AT EVERY LEVEL.</div>
                              <!-- LAYER NR. 3 -->
                                                        
                             </li>
@@ -125,7 +125,7 @@
                                         data-splitout="none"
                                         data-elementdelay="0.05"
                                         data-endelementdelay="0.1"
-                                        style="z-index: 9; max-width: auto; max-height: auto; white-space: nowrap;">MODERN BUILDINGS</div>
+                                        style="z-index: 9; max-width: auto; max-height: auto; white-space: nowrap;">OUR SERVICE</div>
                                         
                              <div class="jx-caption-big-icon tp-caption grey_regular_18 customin tp-resizeme rs-parallaxlevel-0"
                                         data-x="396"
@@ -152,7 +152,7 @@
                                         data-splitout="none"
                                         data-elementdelay="0.05"
                                         data-endelementdelay="0.1"
-                                        style="z-index: 9">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean <br>commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus <br> et magnis dis parturient montes, nascetur ridiculus mus.</div>
+                                        style="z-index: 9">WE PROVIDE HIGHLY SKILLED, SEMI SKILLED AND UNSKILLED PERSONNEL<br/>OF ALL CATEGORIES. OUR WORKFORCES ARE PROFESSIONAL, EFFICIENT,<br/>COST EFFECTIVE AND TIME TESTED. WE ARE CONFIDENT THAT THEY<br/>WILL MEET ALL YOUR STANDARDS.<br/></div>
                              <!-- LAYER NR. 3 -->
                                                        
                             </li>                                              
@@ -178,7 +178,7 @@
                     <div class="container"> 
                         <div class="thirteen columns">
                             <div class="box-content">
-                                <h4>LET'S GO BEHIND THE FUTURE WITH BUXCORP</h4>
+                                <h4>LET'S GO BEHIND THE FUTURE WITH AINSNAN</h4>
                             </div>
                         <!-- Content -->
                         </div>
@@ -1189,30 +1189,18 @@
                 <div class="container"> 
                         <div class="five columns box-content">
                             <h2>GET Free Quote</h2>
-                            <h3>800 8080 1876</h3>
+                            <h3>+971 44 98 5096</h3>
                         </div>
                     <!-- Content -->
                         <div class="jx-line-seperator"></div>
                         <div class="eleven columns jx-subscribeletter">
                         
-                            <h2>Subscribe To Newsletter</h2>
+                            <h2>Get in touch with us</h2>
                         
-                            <form action="index.html" method="post">
-                            
-                                <div class="jx-newsletter-box">
-                                <input type="text" name="jx-newsltter-name" placeholder="Your Name" value="" />
-                                </div>
-                                
-                                <div class="jx-newsletter-box">
-                                <input type="text" name="jx-newsltter-email" placeholder="Type Your Email" value="" />
-                                </div>
-                                
+                            <form action="/contact" method="get">                                
                                 <div class="jx-newsletter-submit">
                                 <input type="submit" name="jx-newsltter-submit" value="GO" />
                                 </div>
-                                
-                                
-                                
                             </form>
                         
                         </div>

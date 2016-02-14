@@ -1,4 +1,9 @@
 @extends('app')
+
+@section('apis')
+<!-- Google Map -->
+    <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+@endsection
 @section('mainContent')
     <!-- BOF Main Content -->
     <div role="main" class="main no-top-padding">
@@ -27,7 +32,9 @@
                         <div class="jx-title">KEEP IN TOUCH</div>
                         <div class="jx-right-border"></div>
                     </div>
-                    <div class="jx-subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</div>  
+                    <div class="jx-subtitle">
+                        To keep in touch with us, write to us enquiry@ainsnan.com or feel free to fill the following form, will get in touch with you shorty. Thanks for visiting ainsnan.com webportal. We deliver our best.
+                    </div>  
                 </div> 
                 <!-- Section Title -->    
             
@@ -85,8 +92,8 @@
                                                     
                             <div class="item-position">
                                 <div class="title">PHYSICAL ADDRESS</div>
-                                <div class="address">MAKILN ROAD,4352 AVENUE STREET.</div>
-                                <div class="address">CALIFORNIA, NY</div>                            
+                                <div class="address">FULL ADDRESS.</div>
+                                <div class="address">DOHA, QATAR</div>                            
                             </div>
                                         
                     </div>
@@ -102,8 +109,8 @@
                                                         
                             <div class="item-position">
                                 <div class="title">HOW TO CONTACT</div>
-                                <div class="phone">TEL : (997) 54 215412 - (997) 54 132546</div>
-                                <div class="fax">FAX : (997) 54 215465 - (997) 54 215412</div>                            
+                                <div class="phone">LANDLINE : 44985096</div>
+                                <div class="fax">MOBILE : 33477406, 33642957</div>                            
                             </div>
                                             
                         </div>
@@ -121,8 +128,8 @@
                             
                             <div class="item-position">
                                 <div class="title">KEEP IN TUCH</div>
-                                <div class="date-time">MONDAY - FRIDAY : 09:00-08:00PM</div>
-                                <div class="date-time">SUNDAY - THU : 08:00-10:00PM</div>                            
+                                <div class="date-time">SATURDAY - THURSDAY : 08:00-05:00PM</div>
+                                <div class="date-time">FRIDAY : HOLIDAY</div>                            
                             </div>
                                             
                         </div>
@@ -169,7 +176,7 @@
                 var marker = new google.maps.Marker({
                     position: new google.maps.LatLng(40.6700, -73.9400),
                     map: map,
-                    title: 'BUXCORP'
+                    title: 'AINSNAN'
                 });
             }
       </script>

@@ -24,13 +24,10 @@
                 <!-- Section Title -->
                 
                 <p>
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
-                <br><br>
-                Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. 
-                
-                <br><br>
-                Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. 
-                
+                    AINSNAN trading and contracting  is a leading trading and contracting companies in Qatar, UAE, 
+                    and India Undertaking major Electrical, Mechanical, Plumbing, Fire fighting, Fire alarm, Low current system And HVAC projects.
+                    We had launched our career in UAE in the year 2006, and here in Qatar 2012. Our principle activities include a Design, Installation, Testing, Commissioning and maintenance of trading and contracting works.
+                <br/>
                 </p>            
             </div>
             
@@ -48,22 +45,22 @@
                         <li>
                             <div class="content">
                                 <div class="title">2000</div>
-                                <div class="discription">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque</div>
+                                <div class="discription">Launched Business in India</div>
                             </div>
                             <!-- Process Content -->
                         </li>
                         <li>
                             <div class="content">
-                                <div class="title">2005</div>
-                                <div class="discription">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque</div>
+                                <div class="title">2006</div>
+                                <div class="discription">Launched the bussiness in UAE</div>
                             </div>
                             <!-- Process Content -->
                         </li>
                         <li>
                             <div class="content">
-                                <div class="title">2015</div>
-                                <div class="discription">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque</div>
-                            </div>
+                                <div class="title">2012</div>
+                        <div class="discription">Launched the bussiness in Qatar</div>
+                              </div>
                             <!-- Process Content -->
                         </li>
                     </ul>
@@ -73,47 +70,27 @@
                 
                 <div class="eleven columns">                
                    <div class="jx-skill-level">
-                    <div><h1>Who WE ARE</h1></div>
+                    <div><h1>What We Will Do</h1></div>
                     
-                   <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes.</p>    
+                   <p>
+                    AINSNAN trading and contracting, has an expertise and experience to provide a wide range of service following:-
+                    <br/>
+                    <ul>
+                        <li>Engineering consultancies, Technical Assistance, Maintenance and Procurements.</li>
+                        <li>Refurbishment and upgrading of MEP systems</li>
+                        <li>Electrical works</li>
+                        <li>Building management system(BMS) and Low current system</li>
+                        <li>CCTV and structure cabling work</li>
+                        <li>Drainage and Plumbing work</li>
+                        <li>Fire Alarm and Firefighting</li>
+                        <li>HVAC, Ducting work</li>
+                        <li>Operation, Training and Maintenance services including spare parts etc.</li>
+                        <li>Design, prefabrication, Erection and commissioning of all new installation up to final completion</li>
+                        <li>Coordination with local authorities and obtaining approvals.</li>
+                    </ul> 
+                   </p>    
                     
-                   <div class="row"></div>
-                 
-                    <!-- Skillsbar #1 -->
-                   <div class="jx-skillsbar-1">                                
-                                
-                        <div class="jx-progress-item">
-                            <div class="skillbar-title left jx-uppercase">HTML</div>
-                            <div class="percent-number right">85<span class="jx-percent-posttext">%</span></div>    
-                            <div class="clearfix"></div>
-                            <div class="skillbar" data-percent="60%">                                
-                                <div class="skillbar-bar" data-progress-animate="60%"></div>
-                            </div>
-                        </div>
-                        <!-- item#01 -->
-                        
-                        <div class="jx-progress-item">
-                            <div class="skillbar-title left jx-uppercase">JQUERY</div>
-                            <div class="percent-number right">65<span class="jx-percent-posttext">%</span></div>    
-                            <div class="clearfix"></div>
-                            <div class="skillbar" data-percent="84%">                                
-                                <div class="skillbar-bar" data-progress-animate="84%"></div>
-                            </div>
-                        </div>
-                        <!-- item#02 -->
-                        
-                        <div class="jx-progress-item">
-                            <div class="skillbar-title left jx-uppercase">PHOTOSHOP</div>
-                            <div class="percent-number right">25<span class="jx-percent-posttext">%</span></div>    
-                            <div class="clearfix"></div>
-                            <div class="skillbar" data-percent="90%">                                
-                                <div class="skillbar-bar" data-progress-animate="90%"></div>
-                            </div>
-                        </div>
-                        <!-- item#03 -->        
-                    </div>
-                    <!-- Skillsbar#1 -->
-                   </div>
+                   <div class="row"></div>            
                 </div>
             </div>
             

@@ -49,7 +49,7 @@
     <!-- Library Js -->
     <script src="{{ URL::asset('vendor/modernizr.js') }}"></script>
     
-    
+    @yield('apis') 
     
     <!--[if IE]>
         <link rel="stylesheet" href="css/ie.css">
@@ -98,7 +98,7 @@
                     <div class="eight columns right">
                         
                         <div class="jx-right-topbar">
-                            <div class="email left"><i class="fa fa-envelope"></i> Info@ainsnan.com</div>
+                            <div class="email left"><i class="fa fa-envelope"></i> enquiry@ainsnan.com</div>
                             
                                 <ul class="right">
                                     <li><a href="#"><i class="fa fa-user"></i></a></li>
@@ -126,13 +126,13 @@
                     <div class="twelve columns">
                     
                         <div class="header-info">
-                            <div class="toll-free"><i class="fa fa-phone"></i> TOLL FREE</div>
+                            <div class="toll-free"><i class="fa fa-phone"></i> DIAL NOW</div>
                             <ul>
                                 <li class="top-space">
                                 <div class="icon"><i class="fa fa-map-marker"></i></div>
                                 <div class="position">
                                 <div class="location">Location</div>
-                                <div class="address">SOUTH REVEN, USA</div>
+                                <div class="address">DOHA, QATAR</div>
                                 </div>
                                 </li>
                                 
@@ -140,12 +140,12 @@
                                 <div class="icon"><i class="fa fa-clock-o"></i></div>
                                 <div class="position">
                                 <div class="time">Office Timing</div>
-                                <div class="date">SUN - FRI 8:00 - 22:00</div>
+                                <div class="date">SAT - THU 8:00 - 17:00</div>
                                 </div>
                                 </li>
                                 
                                 <li>
-                                    <div class="toll-free-number">801 21 7600</div>
+                                    <div class="toll-free-number">44 98 5096</div>
                                 </li> 
                             </ul>
                         </div>
@@ -191,11 +191,11 @@
                             <!-- footer logo -->
                             <div class="jx-about">
                             <div class="jx-title-border"></div>
-                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus.</p>
+                            <p>AINSNAN trading and contracting is a leading trading and contracting companies in Qatar, UAE, and India Undertaking major Electrical, Mechanical, Plumbing, Fire fighting and Fire alarm.</p>
                             <!-- Content -->
                             <div class="jx-btn jx-black"> 
                                 <div class="jx-btn jx-black"> 
-                                    <a href="about-us.html" class="jx-btn-default">
+                                    <a href="/about" class="jx-btn-default">
                                         <span>  
                                             <i class="btn-icon-left fa fa-mail-forward"></i>
                                             <span>Read More</span>
@@ -214,7 +214,7 @@
                             <div class="jx-footer-newsletter">
                                 <div class="jx-footer-title">Newsletter Subscribe</div>
                                 <!-- widget Title -->                         
-                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>                             
+                                <p>News letter service is not activated yet.</p>                             
                             
                                 <form action="#" id="newsletter" method="post" class="jx-form-wrapper">
                                     <div id="newsletter-email" class="search-inline-block">
@@ -235,48 +235,39 @@
                     <!-- BOF Footer widget #2-->
                     <div class="four columns">
                         <div class="widget">
-                            <div class="jx-footer-title">Recent post</div>
+                            <div class="jx-footer-title">Recent projects</div>
                             <!-- widget Title -->
                             <div class="jx-widget-recent-post">
                                 <ul>
                                     <li>
                                         <div class="image"><img src="{{ URL::asset('images/blog-s-1.jpg') }}" alt="" /></div>
                                         <div class="post-content">
-                                            <div class="title"><a href="news-single-page.html">Responsive HTML Design</a></div>
+                                            <div class="title"><a href="#">Responsive HTML Design</a></div>
                                             <div class="date">29 JUN 2015</div>
                                         </div>
                                     </li>
                                     <li>
                                         <div class="image"><img src="{{ URL::asset('images/blog-s-2.jpg') }}" alt="" /></div>
                                          <div class="post-content">
-                                            <div class="title"><a href="news-single-page.html">Clean and Modern</a></div>
+                                            <div class="title"><a href="#">Clean and Modern</a></div>
                                             <div class="date">02 AUG 2015</div>
                                         </div>
                                     </li>
                                     <li>
                                         <div class="image"><img src="{{ URL::asset('images/blog-s-3.jpg') }}" alt="" /></div>
                                          <div class="post-content">
-                                            <div class="title"><a href="news-single-page.html">Unlimited Control Options</a></div>
+                                            <div class="title"><a href="#">Unlimited Control Options</a></div>
                                             <div class="date">20 JAN 2015</div>
                                         </div>
                                     </li>
                                     <li>
                                         <div class="image"><img src="{{ URL::asset('images/blog-s-4.jpg') }}" alt="" /></div>
                                          <div class="post-content">
-                                            <div class="title"><a href="news-single-page.html">Responsive HTML Design</a></div>
+                                            <div class="title"><a href="#">Responsive HTML Design</a></div>
                                             <div class="date">20 JAN 2015</div>
                                         </div>
                                     </li>
                                 </ul>
-                                <div class="jx-btn jx-black"> 
-                                    <a href="news.html" class="jx-btn-default">
-                                        <span>  
-                                            <i class="btn-icon-left fa fa-mail-forward"></i>
-                                            <span>Read More</span>
-                                            <i class="btn-icon-right fa fa-mail-forward"></i>
-                                        </span>
-                                    </a>
-                                </div>
                             </div>
                             <!-- Recent Post -->
                         </div>
@@ -292,15 +283,17 @@
                             
                             <div class="jx-tags-footer">
                                 <ul>
-                                    <li>responsive</li>
-                                    <li>jquery</li>
-                                    <li>css</li>
-                                    <li>design</li>
-                                    <li>graphic</li>
-                                    <li>php</li>
-                                    <li>html5</li>
-                                    <li>jquery</li>
-                                    <li>Css</li>
+                                    <li>MEP</li>
+                                    <li>Electrical</li>
+                                    <li>BMS</li>
+                                    <li>CCTV</li>
+                                    <li>Cabling</li>
+                                    <li>Drainage</li>
+                                    <li>Plumbing</li>
+                                    <li>Fire Alarm
+                                    <li>Firefighting</li>
+                                    <li>HVAC</li>
+                                    <li>Ducting</li>
                                 </ul>
                             </div>
                             
@@ -308,7 +301,7 @@
                         <!-- Tags Group -->                      
                         <div class="jx-border"></div>
                         <div class="widget">                
-                            <div class="jx-footer-title">Flickr</div>
+                            <div class="jx-footer-title">Latest Snaps</div>
                             <!-- widget Title -->  
                             
                             <div class="jx-footer-flickr">
@@ -351,16 +344,16 @@
                                 <ul>
                                     <li>
                                     <i class="line-icon icon-location"></i>
-                                    <div>Bolean, 959 Road, Avenue Street, Buston, USA</div>
+                                    <div>Doha, Qatar</div>
                                     </li>
                                     <li>
                                     <i class="line-icon icon-mobile"></i>
-                                    <div class="tel"><strong>Tel :</strong>  00965 - 3426 - 3211223</div>
-                                    <div class="fax"><strong>Fax :</strong> 00965 - 3426 - 3211223</div>
+                                    <div class="tel"><strong>Tel :</strong>  44985096</div>
+                                    <div class="fax"><strong>Mob :</strong> 33477406, 33642957</div>
                                     </li>
                                     <li>
                                     <i class="line-icon icon-globe"></i>
-                                    <div class="email"><strong>Email :</strong> Name@your-company.com</div>
+                                    <div class="email"><strong>Email :</strong> enquiry@ainsnan.com</div>
                                     </li>
                                 </ul>
                             </div>
